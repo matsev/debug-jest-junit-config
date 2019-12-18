@@ -1,0 +1,12 @@
+{
+  "name": "debug-jest-junit-config",
+  "version": "0.0.1",
+  "description": "Project for debugging jest-junit configuration",
+  "scripts": {
+    "test": "jest --ci --reporters=default --reporters=jest-junit"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "jest-junit": "^10.0.0"
+  }
+}
